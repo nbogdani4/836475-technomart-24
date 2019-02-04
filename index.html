@@ -10,8 +10,13 @@
   <header class="page-header">
 
     <div class="header-top">
-      <a class="page-logo">Техномарт</a>
-      <!-- Здесь будет форма поиска по сайту         -->
+      <a class="page-logo">
+        <img src="img/logo.png" width="220" height="47" alt="Лого интернет магазина Техномарт">
+      </a>
+      <form action="#" method="get" name="search">
+        <input type="text" name="search" placeholder="Поиск">
+        <button type="submit">Искать</button>
+      </form>
       <a href="bookmarks.html">Закладки: 0</a>
       <a href="basket.html">Корзина: 0</a>
       <a href="order.html">Оформить заказ</a>
@@ -44,6 +49,123 @@
   </header>
   <main>
 
+    <ul>
+      <li>
+        <b>Материалы</b>
+        <a class="button" href="#">На любой вкус</a>
+      </li>
+      <li>
+        <b>Инструмент</b>
+        <a class="button" href="#">На все случаи</a>
+      </li>
+      <li>
+        <b>Техника</b>
+        <a class="button" href="#">Для стройки</a>
+      </li>
+    </ul>
+
+    <ul>
+      <li>
+        <b>Скидки 50%</b>
+        <a class="button" href="#">На 350 товаров</a>
+      </li>
+      <li>
+        <b>Доставка</b>
+        <a class="button" href="#">Бесплатно</a>
+      </li>
+    </ul>
+
+    <!-- Сдесь будет слайдер -->
+
+    <section class="popular-product">
+      <h2>Популярные товары:</h2>
+      <a class="button" href="#">Все популярные товары</a>
+      <ul>
+        <li>
+          <h3>Перфоратор BOSCH BFG 9000</h3>
+          <img src="img/perforator-1.jpg" alt="Перфоратор BOSCH BFG 9000" width="218" height="170">
+          <p>32500 Р.</p>
+          <p>25500 Р.</p>
+        </li>
+        <li>
+          <h3>Перфоратор BOSCH BFG 3000</h3>
+          <img src="img/perforator-2.jpg" alt="Перфоратор BOSCH BFG 3000" width="218" height="170">
+          <p>22500 Р.</p>
+          <p>15500 Р.</p>
+        </li>
+        <li>
+          <h3>Перфоратор BOSCH BFG 6000</h3>
+          <img src="img/perforator-3.jpg" alt="Перфоратор BOSCH BFG 6000" width="218" height="170">
+          <p>30500 Р.</p>
+          <p>25500 Р.</p>
+        </li>
+        <li>
+          <h3>Перфоратор BOSCH BFG 2000</h3>
+          <img src="img/perforator-2.jpg" alt="Перфоратор BOSCH BFG 2000" width="218" height="170">
+          <p>12500 Р.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="popular-manufacturers">
+      <h2>Популярные производители:</h2>
+      <a class="button" href="#">Все производители</a>
+      <ul>
+        <li>
+          <img src="img/bosch.jpg" alt="BOSCH" width="126" height="37">
+        </li>
+        <li>
+          <img src="img/makita.jpg" alt="Makita" width="123" height="40">
+        </li>
+        <li>
+          <img src="img/dewalt.jpg" alt="DeWalt" width="145" height="44">
+        </li>
+        <li>
+          <img src="img/interskol.jpg" alt="Интерскол" width="200" height="88">
+        </li>
+        <li>
+          <img src="img/hitachi.jpg" alt="Hitachi" width="169" height="31">
+        </li>
+        <li>
+          <img src="img/lg.jpg" alt="LG" width="121" height="73">
+        </li>
+        <li>
+          <img src="img/aeg.jpg" alt="AEG" width="151" height="96">
+        </li>
+        <li>
+          <img src="img/metabo.jpg" alt="Metabo" width="204" height="69">
+        </li>
+      </ul>
+    </section>
+
+    <section class="services">
+      <h2>Сервисы</h2>
+      <p>Хороший интернет-магазин отличается от плохого не только ценами!
+        Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными
+      </p>
+
+      <ul>
+        <li>
+          <h3>Доставка</h3>
+          <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно! Ведь мы неплохо
+            заработаем, поднимая его на ваш этаж!
+          </p>
+        </li>
+        <li>
+          <h3>Гарантия</h3>
+          <p>Если купленный у нас товар поломается или заискрит, а также в случае пожара, спровоцированного его
+            возгаранием, вы всегда можете быть уверены в нашей гарантии. Мы обменяем сгоревший товар на новый. Дом уж
+            восстановите как-нибудь сами.
+          </p>
+        </li>
+        <li>
+          <h3>Кредит</h3>
+          <p>Залезть в долговую яму стало проще! Кредитные консультанты придут вам на помощь.
+          </p>
+        </li>
+      </ul>
+    </section>
+
     <section class="about-company">
       <h2>Компания «Техномарт»</h2>
       <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
@@ -62,9 +184,9 @@
       <h2>Контакты</h2>
       <p>Вы можете забрать товар сами, заехав в наш офис:</p>
       <a href="#">
-        <img src="http://placehold.it/300x158" alt="Карта с расположением нашего офиса" width="300" height="158">
+        <img src="img/maps.png" alt="Карта с расположением нашего офиса" width="300" height="158">
       </a>
-      <a href="#" class="button">Заблудились? Напишите нам!</a>
+      <a class="button" href="#">Заблудились? Напишите нам!</a>
     </section>
 
   </main>
@@ -72,7 +194,9 @@
 
     <div class="footer-top">
       <div class="footer-block-left">
-        <a class="page-logo">Техномарт</a>
+        <a class="page-logo">
+          <img src="img/logo-large.png" width="220" height="68" alt="Лого интернет магазина Техномарт">
+        </a>
         <p>г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8<br>
           +7 (812) 555-05-55</p>
       </div>
