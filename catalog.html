@@ -14,7 +14,9 @@
         <img src="img/logo.png" width="220" height="47" alt="Лого интернет магазина Техномарт">
       </a>
       <form action="#" method="get" name="search">
-        <input type="text" name="search" placeholder="Поиск">
+        <label>Поиск
+          <input type="text" name="search">
+        </label>
         <button type="submit">Искать</button>
       </form>
       <a href="bookmarks.html">Закладки: 0</a>
@@ -24,7 +26,7 @@
 
     <div class="header-bottom">
       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <div class="page-header-phone">
+      <div class="header-bottom-phone">
         <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p class="adress">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
@@ -220,6 +222,14 @@
     </div>
 
   </footer>
+
+  <section class="modal modal-message">
+    <h2 class="visuaaly-hidden">Сообщение для пользователя</h2>
+    <p>Товар добавлен в корзину</p>
+    <a class="button" href="order.html">Оформить заказ</a>
+    <a class="button" href="catalog.html">Продолжить покупку</a>
+    <button type="button">Закрыть окно</button>
+  </section>
 
 </body>
 
