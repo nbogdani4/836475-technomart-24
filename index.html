@@ -1,11 +1,9 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
 </head>
-
 <body>
   <header class="page-header">
 
@@ -238,14 +236,12 @@
   <section class="modal modal-mail">
     <h2 class="visually-hidden">Форма обратной связи</h2>
     <form action="#" method="post" name="mail-form">
-      <label>Ваше имя:
-        <input type="text" name="name" placeholder="Имя Фамилия">
-      </label>
-      <label>Ваш e-mail:
-        <input type="text" name="email" placeholder="email@example.com">
-      </label>
-      <label for="letter-area">Текст письма:</label>
-      <textarea name="letter" id="letter-area" placeholder="В свободной форме"></textarea>
+      <label for="mail-form-name">Ваше имя:</label>
+      <input type="text" name="name" id="mail-form-name" placeholder="Имя Фамилия">
+      <label for="mail-form-email">Ваш e-mail:</label>
+      <input type="text" name="email" id="mail-form-email" placeholder="email@example.com">
+      <label for="mail-form-message">Текст письма:</label>
+      <textarea name="message" id="mail-form-message" placeholder="В свободной форме"></textarea>
       <button class="button" type="submit">Отправить</button>
     </form>
     <button type="button">Закрыть окно</button>
@@ -253,10 +249,10 @@
 
   <section class="modal modal-maps">
     <h2>Карта с координатами нашего офиса</h2>
-    <img src="img/modal-maps.png" width="940" height="446" alt="Город Санкт-Петербург, улица Большая Конюшенная, дом 19/8">
+    <p>
+      <img src="img/modal-maps.png" width="940" height="446" alt="Город Санкт-Петербург, улица Большая Конюшенная, дом 19/8">
+    </p>
     <button type="button">Закрыть окно с картой</button>
   </section>
-
 </body>
-
 </html>
