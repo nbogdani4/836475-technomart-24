@@ -4,39 +4,53 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Техномарт</title>
+  <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700&amp;subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+
+
+
+
   <header class="page-header">
 
     <div class="header-top">
       <a class="page-logo">
         <img src="img/logo.png" width="220" height="47" alt="Лого интернет магазина Техномарт">
       </a>
-      <form action="https://echo.htmlacademy.ru" method="get" name="search">
+      <form class="search" action="https://echo.htmlacademy.ru" method="get" name="search">
         <label class="visually-hidden" for="search-field">Поиск</label>
-        <input type="text" name="search" id="search-field" placeholder="Поиск:">
+        <input class="search-field" type="text" name="search" id="search-field" placeholder="Поиск:">
         <button class="visually-hidden" type="submit">Искать</button>
       </form>
       <a href="bookmarks.html">Закладки: 0</a>
       <a href="basket.html">Корзина: 0</a>
-      <a href="order.html">Оформить заказ</a>
+      <a class="make-order" href="order.html">Оформить заказ</a>
     </div>
 
+
+
     <div class="header-bottom">
-      <h1>Интернет-магазин строительных материалов и инструментов для ремонта</h1>
-      <address class="header-address">
+      <h1 class="shop-description">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+      <div class="our-location">
         <a class="phone-number" href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-      </address>
-      <ul class="user-menu" aria-label="Навигация для пользователя">
-        <li><a href="login.html">Войти</a></li>
-        <li><a href="signup.html">Регистрация</a></li>
-      </ul>
+      </div>
+      <div class="personal-area">
+        <a class="login" href="login.html">Войти</a>
+        <a class="registration" href="registration.html">Регистрация</a>
+      </div>
+
+
+
+      
     </div>
 
     <nav class="page-header-nav">
-      <ul class="main-menu" aria-label="Главное меню сайта">
+      <ul class="main-menu">
         <li><a>Главная</a></li>
         <li><a href="company.html">Компания</a></li>
         <li><a href="catalog.html">Каталог</a></li>
@@ -48,6 +62,11 @@
     </nav>
 
   </header>
+
+
+
+
+
   <main>
 
     <section class="popular-product">

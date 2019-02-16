@@ -1,0 +1,137 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "Cuprum", Arial, sans-serif;
+  color: #000000;
+
+  background-color: #ffffff;
+}
+
+.page-header {
+  background-color: #f4f7f9;
+}
+
+.header-top {
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 18px;
+
+  background-color: #293449;
+}
+
+.search .search-field {
+  border: none;
+  background-color: transparent;
+}
+
+.search .search-field::placeholder {
+  color: #ffffff;
+  
+}
+
+.search .search-field:hover {
+  background-color: #212a3a;
+}
+
+.search .search-field:focus {
+  background-color: #ffffff;
+}
+
+.search .search-field:active {
+  background-color: #ffffff;
+}
+
+.header-top a {
+  color: #ffffff;
+}
+
+.header-top a:hover {
+  background-color: #212a3a;
+}
+
+.header-top a:active {
+  background-color: #161d29;
+  color: rgba(255, 255, 255, 0.6)
+}
+
+.header-top .not-empty {
+  background-color: #ee3643;
+}
+
+.header-top .not-empty:hover {
+  background-color: #ca2c37;
+}
+
+.header-top .not-empty:active {
+  background-color: #ba2732;
+}
+
+.header-top .make-order {
+  background-color: #63a63e;
+}
+
+.header-top .make-order:hover {
+  background-color: #5fbb2d;
+}
+
+.header-top .make-order:active {
+  background-color: #518534;
+  color: rgba(255, 255, 255, 0.5) 
+}
+
+.not-empty {
+  background-color: #ee3643;
+}
+
+.header-bottom .shop-description {
+  color: #e9292a;
+  font-size: 16px;
+  line-height: 23px;
+  font-style: italic;
+}
+
+.our-location .phone-number {
+  color: #e9292a;
+  font-size: 21px;
+  line-height: 21px;
+  text-decoration: none;
+}
+.our-location .address {
+  color: #32425c;
+  font-size: 14px;
+}
+
+.personal-area a {
+  color: #000000;
+  font-size: 21px;
+  line-height: 21px;
+  background-color: #ffffff;
+  text-decoration: none;
+}
+
+.personal-area a:hover {
+  color: #ee3643;
+}
+
+.personal-area a:active {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.page-header-nav .main-menu {
+  list-style: none;
+  color: #ffffff;
+  font-size: 17px;
+  line-height: 17px;
+  background-color: #32425c;
+}
+
+.main-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+
