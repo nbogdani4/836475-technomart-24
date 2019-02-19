@@ -84,6 +84,7 @@ body {
   color: #ffffff;
   font-size: 17px;
   line-height: 18px;
+  text-decoration: none;
 }
 
 .header-top .make-order {
@@ -112,7 +113,7 @@ body {
   background-color: #518534;;
 }
 
-/* .header-top .not-empty {
+.header-top .not-empty {
   background-color: #ee3643;
 }
 
@@ -123,11 +124,6 @@ body {
 .header-top .not-empty:active {
   background-color: #ba2732;
 }
-
-.not-empty {
-  background-color: #ee3643;
-} */
-
 
 .header-bottom .shop-description {
   font-style: italic;
@@ -163,6 +159,44 @@ body {
 
 .personal-area .index-button:active {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.personal-area .user-profile {
+  color: #000000;
+  background-color: #ffffff;
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.user-profile a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.user-profile a:active {
+  color: rgba(0, 0, 0, 0.3)
+}
+
+.personal-menu li {
+  color: #32425c;
+}
+
+.personal-menu li:first-child {
+  list-style: none;
+}
+
+.personal-menu a {
+  color: #32425c;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.personal-menu a:hover {
+  color: #ee3643;
+}
+
+.personal-menu a:active {
+  color: rgba(50, 66, 92, 0.3)
 }
 
 .page-header-nav {
