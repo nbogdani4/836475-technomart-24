@@ -11,15 +11,9 @@ body {
   background-color: #ffffff;
 }
 
-/* ****************
-
-    HEADER
-
-**************** */
-
-
 .page-header {
   color: #000000;
+
   background-color: #f4f7f9;
 }
 
@@ -50,8 +44,9 @@ body {
 
 .search .search-field {
   font-size: 17px;
-  color: #ffffff;
   line-height: 18px;
+  color: #ffffff;
+
   background-color: transparent;
   border: none;
 }
@@ -60,30 +55,34 @@ body {
   font-size: 17px;
   line-height: 18px;
   color: #ffffff;
+
   background-color: transparent;
 }
 
 .search .search-field:hover {
-  background-color: #212a3a;
   color: #000000;
+
+  background-color: #212a3a;
 }
 
 .search .search-field:focus {
-  background-color: #ffffff;
   color: #000000;
+
+  background-color: #ffffff;
 }
 
 .search .search-field:active {
-  background-color: #ffffff;
   color: #000000;
+
+  background-color: #ffffff;
 }
 
 .header-top .bookmarks,
 .header-top .card,
 .header-top .make-order {
-  color: #ffffff;
   font-size: 17px;
   line-height: 18px;
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -162,10 +161,11 @@ body {
 }
 
 .personal-area .user-profile {
-  color: #000000;
-  background-color: #ffffff;
   font-size: 21px;
   line-height: 21px;
+  color: #000000;
+
+  background-color: #ffffff;
 }
 
 .user-profile a {
@@ -174,7 +174,7 @@ body {
 }
 
 .user-profile a:active {
-  color: rgba(0, 0, 0, 0.3)
+  color: rgba(0, 0, 0, 0.3);
 }
 
 .personal-menu li {
@@ -186,9 +186,9 @@ body {
 }
 
 .personal-menu a {
-  color: #32425c;
   font-size: 16px;
   line-height: 18px;
+  color: #32425c;
 }
 
 .personal-menu a:hover {
@@ -196,14 +196,16 @@ body {
 }
 
 .personal-menu a:active {
-  color: rgba(50, 66, 92, 0.3)
+  color: rgba(50, 66, 92, 0.3);
 }
 
 .page-header-nav {
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
+
   background-color: #32425c;
+  box-shadow: 0 5px 0 #293449;
 }
 
 .header-main-menu {
@@ -221,6 +223,7 @@ body {
 
 .header-main-menu li:active {
   background-color: #1d2739;
+  box-shadow: 0 5px 0 #1d2739;
 }
 
 .header-main-menu a:active {
@@ -228,18 +231,18 @@ body {
 }
 
 .page-part h2 {
-  color: #000000;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
+  color: #000000;
   text-transform: uppercase;
 }
 
 .page-part p {
-  color: #000000;
   font-size: 13px;
   line-height: 24px;
   font-family: "PT Sans", Arial, san-serif;
+  color: #000000;
 }
 
 .about-company ul {
@@ -253,6 +256,7 @@ body {
   content: "";
 
   padding-left: 36px;
+
   background: url("../img/red-line.svg") no-repeat 0 50%;
 }
 
@@ -260,8 +264,8 @@ body {
   font: inherit;
   font-size: 14px;
   line-height: 18px;
-  color: #ffffff;
   text-align: center;
+  color: #ffffff;
   text-transform: uppercase;
   text-decoration: none;
 
@@ -274,6 +278,192 @@ body {
 
 .button:active {
   background-color: #ba2732;
+}
+
+.breadcrumbs {
+  list-style: none;
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, san-serif;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #ffffff;
+}
+
+.breadcrumbs a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.block-title {
+  background-color: #f2f6f8;
+}
+
+.title-item {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  color: #32425c;
+}
+
+.filter-title {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+
+  background-color: #f7f3ec;
+}
+
+.filter ul {
+  list-style: none;
+}
+
+.filter fieldset {
+  background-color: #ffffff;
+  border: none;
+}
+
+.filter legend {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 30px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.filter .power {
+  letter-spacing: 0.04em;
+}
+
+.filter li {
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #000000;
+  text-transform: uppercase;
+}
+
+.button.filter-btn {
+  font-size: 13px;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, san-serif;
+  color: #000000;
+
+  background-color: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 2px;
+}
+
+.button.filter-btn:hover {
+  background-color: #ffffff;
+  border: 1px solid #bdc6ca;
+}
+
+.button.filter-btn:active {
+  background-color: #ffffff;
+  border: 1px solid #ee3643;
+}
+
+.catalog-list {
+  list-style: none;
+}
+
+.catalog-list .catalog-item {
+  max-width: 218px;
+  min-height: 316px;
+
+  border: 1px solid #e5e5e5;
+}
+
+.catalog-list .catalog-item:hover {
+  border-color: transparent;
+  box-shadow: 0 10px 25px 0 rgba(41, 52, 73, 0.5);
+}
+
+.catalog-item h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #000000;
+}
+
+.catalog-item del {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #999999;
+}
+
+.price ins {
+  text-decoration: none;
+}
+
+.catalog-item .price {
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+  color: #ffffff;
+
+  background-color: #ee3643;
+}
+
+.catalog-item .button.buy {
+  background-color: #63a63e;
+  border-radius: 3px;
+  box-shadow: inset 0 -3px 0 #367315;
+}
+
+.catalog-item .button.buy:hover {
+  background-color: #5fbb2d;
+}
+
+.catalog-item .button.buy:active {
+  background-color: #518534;
+  box-shadow: none;
+}
+
+.catalog-item .button.bookmarks {
+  color: #32425c;
+
+  background-color: #ffffff;
+  border: 3px solid #63a63e;
+  border-radius: 3px;
+}
+
+.catalog-item .button.bookmarks:hover {
+  border-color: #32425c;
+}
+
+.catalog-item .button.bookmarks:active {
+  color: rgba(50, 66, 92, 0.3);
+
+  border-color: rgba(50, 66, 92, 0.3);
+}
+
+.about-perforator {
+  color: #000000;
+
+  background-color: #f2f6f8;
+}
+
+.about-perforator h2 {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.about-perforator p {
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .page-footer {
