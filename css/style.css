@@ -11,14 +11,39 @@ body {
   background-color: #ffffff;
 }
 
+.container {
+  width: 940px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 .page-header {
   background-color: #f4f7f9;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header.index {
+  margin-bottom: 59px;
+}
+
+.page-header.inner {
+  margin-bottom: 24px;
 }
 
 .header-top {
   color: #ffffff;
+  margin-bottom: 49px;
+
 
   background-color: #293449;
+}
+
+.header-top > .container {
+  display: flex;
+  justify-content: space-between; 
+  height: 42px; /* !!! Временно !!! */
 }
 
 .page-logo img {
@@ -27,7 +52,7 @@ body {
 }
 
 .page-logo .header-img {
-  padding: 13px 55px 11px;
+  padding: 14px 56px 11px 55px;
 }
 
 .page-logo .header-img:hover {
@@ -122,11 +147,23 @@ body {
   background-color: #ba2732;
 }
 
+.header-bottom {
+  margin-bottom: 39px;
+  height: 70px; /* !!! Временно !!! */
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-bottom .shop-description {
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
   color: #e9292a;
+  width: 300px;
+}
+
+.header-bottom .header-address {
+  width: 300px;
 }
 
 .header-address .number {
@@ -138,6 +175,10 @@ body {
 .header-address .address {
   font-size: 14px;
   color: #32425c;
+}
+
+.header-bottom .personal-area {
+  width: 300px;
 }
 
 .personal-area .index-button {
@@ -196,16 +237,19 @@ body {
 }
 
 .page-header-nav {
-  font-size: 17px;
-  line-height: 17px;
-  color: #ffffff;
-
-  background-color: #32425c;
-  box-shadow: 0 5px 0 #293449;
+  margin-bottom: 65px;
 }
 
 .header-main-menu {
+  font-size: 17px;
+  line-height: 17px;
+  color: #ffffff;
   list-style: none;
+  background-color: #32425c;
+  box-shadow: 0 5px 0 #293449;
+  margin: 0;
+  padding: 0;
+  height: 55px; /* !!! Временно !!! */
 }
 
 .header-main-menu a {
@@ -223,6 +267,14 @@ body {
   color: rgba(255, 255, 255, 0.5);
 }
 
+.page-part {
+  margin-bottom: 86px;
+  display: flex;
+  justify-content: space-between;
+  height: 370px; /* !!! Временно !!! */
+}
+
+
 .page-part h2 {
   font-weight: 400;
   font-size: 30px;
@@ -232,6 +284,10 @@ body {
 
 .page-part p {
   font-family: "PT Sans", Arial, san-serif;
+}
+
+.page-part .about-company {
+  width: 540px;
 }
 
 .about-company ul {
@@ -247,6 +303,11 @@ body {
 
   background: url("../img/red-line.svg") no-repeat 0 50%;
 }
+
+.page-part .contacts {
+  width: 300px;
+  }
+  
 
 .button {
   font: inherit;
@@ -268,11 +329,20 @@ body {
   background-color: #ba2732;
 }
 
+.page-main {
+  display: flex;
+  flex-direction: column;
+}
+
 .breadcrumbs {
   list-style: none;
   line-height: 18px;
   font-family: "PT Sans", Arial, san-serif;
   text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 24px;
+  height: 12px; /* !!! Временно !!! */
 }
 
 .breadcrumbs a {
@@ -282,6 +352,8 @@ body {
 
 .block-title {
   background-color: #f2f6f8;
+  margin-bottom: 20px;
+  height: 90px; /* !!! Временно !!! */
 }
 
 .title-item {
@@ -289,6 +361,15 @@ body {
   font-size: 30px;
   line-height: 30px;
   color: #32425c;
+}
+
+.catalog-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter {
+  width: 220px;
 }
 
 .filter-title {
@@ -350,15 +431,33 @@ body {
   border: 1px solid #ee3643;
 }
 
+.catalog {
+  width: 700px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+ }
+
+
 .catalog-list {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .catalog-list .catalog-item {
-  max-width: 218px;
-  min-height: 316px;
+  width: 217px;
+  height: 320px; /* !!! Временно !!! */
+  margin-right: 20px;
+  margin-bottom: 20px;
+
 
   border: 1px solid #e5e5e5;
+}
+
+.catalog-list .catalog-item:nth-child(3n) {
+margin-right: 0;
 }
 
 .catalog-list .catalog-item:hover {
@@ -427,6 +526,13 @@ body {
   border-color: rgba(50, 66, 92, 0.3);
 }
 
+.about-perforator {
+  background-color: #f2f6f8;
+  height: 221px; /* !!! Временно !!! */
+  width: 100%;
+ padding-top: 40px;
+}
+
 .about-perforator h2 {
   font-weight: 400;
   font-size: 30px;
@@ -436,6 +542,7 @@ body {
 
 .about-perforator p {
   font-family: "PT Sans", Arial, sans-serif;
+  margin: 0;
 }
 
 .page-footer {
@@ -443,6 +550,20 @@ body {
   font-size: 18px;
 
   background-color: #32425c;
+}
+
+.page-footer > .container {
+  display: flex;
+  justify-content: space-between;
+  height: 193px; /* !!! Временно !!! */
+}
+
+.page-footer .footer-left {
+  width: 380px;
+}
+
+.page-footer .footer-right {
+  width: 550px;
 }
 
 .page-logo .footer-img {
@@ -457,6 +578,7 @@ body {
 .footer-right .footer-main-menu,
 .footer-right .footer-catalog-menu {
   list-style: none;
+  height: 30px; /* !!! Временно !!! */
 }
 
 .footer-main-menu a {
@@ -495,6 +617,11 @@ body {
   list-style: none;
 }
 
+.footer-bottom .container {
+  display: flex;
+  justify-content: space-between;
+}
+
 .footer-feedback a,
 .footer-developed a {
   color: #ffd180;
@@ -514,3 +641,20 @@ body {
 .modal {
   display: none;
 }
+
+
+!!! Временно !!!
+
+  /* Временная подсветка */
+/*  
+body > * {
+  outline: 1px solid red; 
+}
+
+body > * > *  {
+  outline: 1px solid green;
+}
+
+body > * > * > * {
+  outline: 1px solid violet;
+}  */

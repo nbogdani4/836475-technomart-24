@@ -11,23 +11,26 @@
 </head>
 
 <body>
-
-  <header class="page-header">
+  <header class="page-header index">
     <div class="header-top">
-      <a class="page-logo">
-        <img class="header-img" src="img/shop-logo.svg" width="109" height="17" alt="Лого интернет магазина Техномарт">
-      </a>
-      <form class="search" action="https://echo.htmlacademy.ru" method="get" name="search">
-        <label class="visually-hidden" for="search-field">Поиск</label>
-        <input class="search-field" type="text" name="search" id="search-field" autocomplete="off" placeholder="Поиск:">
-        <button class="visually-hidden" type="submit">Искать</button>
-      </form>
-      <a class="bookmarks" href="bookmarks.html">Закладки: 0</a>
-      <a class="card" href="card.html">Корзина: 0</a>
-      <a class="make-order" href="order.html">Оформить заказ</a>
+      <div class="container">
+        <a class="page-logo">
+          <img class="header-img" src="img/shop-logo.svg" width="109" height="17"
+            alt="Лого интернет магазина Техномарт">
+        </a>
+        <form class="search" action="https://echo.htmlacademy.ru" method="get" name="search">
+          <label class="visually-hidden" for="search-field">Поиск</label>
+          <input class="search-field" type="text" name="search" id="search-field" autocomplete="off"
+            placeholder="Поиск:">
+          <button class="visually-hidden" type="submit">Искать</button>
+        </form>
+        <a class="bookmarks" href="bookmarks.html">Закладки: 0</a>
+        <a class="card" href="card.html">Корзина: 0</a>
+        <a class="make-order" href="order.html">Оформить заказ</a>
+      </div>
     </div>
-    <div class="header-bottom">
-      <h1 class="shop-description">Интернет-магазин строительных материалов и инструментов для ремонта</h1>
+    <div class="header-bottom container">
+      <h1 class="shop-description">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
       <div class="header-address">
         <a class="number" href="tel:+78125550555">+7 (812) 555-05-55</a>
         <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
@@ -37,21 +40,20 @@
         <a class="index-button" href="registration.html">Регистрация</a>
       </div>
     </div>
-    <nav class="page-header-nav">
+    <nav class="page-header-nav container">
       <ul class="header-main-menu">
         <li><a>Главная</a></li>
-        <li><a href="company.html">Компания</a></li>
+        <li><a href="#">Компания</a></li>
         <li><a href="catalog.html">Каталог</a></li>
-        <li><a href="news.html">Новости</a></li>
-        <li><a href="special.html">Спецпредложения</a></li>
-        <li><a href="delivery.html">Доставка</a></li>
-        <li><a href="contacts.html">Контакты</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Спецпредложения</a></li>
+        <li><a href="#">Доставка</a></li>
+        <li><a href="#">Контакты</a></li>
       </ul>
     </nav>
   </header>
-
   <main>
-    <div class="page-part">
+    <div class="page-part container">
       <section class="about-company">
         <h2>Компания «Техномарт»</h2>
         <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит
@@ -74,62 +76,65 @@
       </section>
     </div>
   </main>
-
   <footer class="page-footer">
-    <div class="footer-left">
-      <a class="page-logo">
-        <img class="footer-img" src="img/shop-logo.svg" width="136" height="21" alt="Лого интернет магазина Техномарт">
-      </a>
-      <div class="footer-address">
-        <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
-        <a class="number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+    <div class="container">
+      <div class="footer-left">
+        <a class="page-logo">
+          <img class="footer-img" src="img/shop-logo.svg" width="136" height="21"
+            alt="Лого интернет магазина Техномарт">
+        </a>
+        <div class="footer-address">
+          <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+          <a class="number" href="tel:+78125550555">+7 (812) 555-05-55</a>
+        </div>
       </div>
-    </div>
-    <div class="footer-right" aria-label="Дополнительное меню">
-      <ul class="footer-main-menu">
-        <li><a href="#">Компания</a></li>
-        <li><a href="#">Новости</a></li>
-        <li><a href="#">Каталог</a></li>
-        <li><a href="#">Доставка</a></li>
-        <li><a href="#">Контакты</a></li>
-      </ul>
-      <ul class="footer-catalog-menu">
-        <li><a href="#">Материалы</a></li>
-        <li><a href="#">Техника</a></li>
-        <li><a href="#">Инструмент</a></li>
-        <li><a href="#">Спецпредложения</a></li>
-      </ul>
-    </div>
-    <div class="footer-bottom">
-      <p class="copyright">© 2010–2019 Компания «Техномарт» Все права защищены</p>
-      <div class="footer-social">
-        <ul>
-          <li>
-            <a class="social-button" href="https://vk.com/htmlacademy">
-              <span class="visually-hidden">Наша страница в Вконтакте</span>
-            </a>
-          </li>
-          <li>
-            <a class="social-button" href="https://facebook.com/htmlacademy">
-              <span class="visually-hidden">Наша страница в Facebook</span>
-            </a>
-          </li>
-          <li>
-            <a class="social-button" href="https://www.instagram.com/htmlacademy/">
-              <span class="visually-hidden">Наша страница в Instagram</span>
-            </a>
-          </li>
+      <div class="footer-right" aria-label="Дополнительное меню">
+        <ul class="footer-main-menu">
+          <li><a href="#">Компания</a></li>
+          <li><a href="#">Новости</a></li>
+          <li><a href="#">Каталог</a></li>
+          <li><a href="#">Доставка</a></li>
+          <li><a href="#">Контакты</a></li>
+        </ul>
+        <ul class="footer-catalog-menu">
+          <li><a href="#">Материалы</a></li>
+          <li><a href="#">Техника</a></li>
+          <li><a href="#">Инструмент</a></li>
+          <li><a href="#">Спецпредложения</a></li>
         </ul>
       </div>
-      <p class="footer-feedback">
-        <span>Обратная связь:</span><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
-      </p>
-      <p class="footer-developed">
-        <span>Разработано —</span><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
-      </p>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">© 2010–2019 Компания «Техномарт» Все права защищены</p>
+        <div class="footer-social">
+          <ul>
+            <li>
+              <a class="social-button" href="https://vk.com/htmlacademy">
+                <span class="visually-hidden">Наша страница в Вконтакте</span>
+              </a>
+            </li>
+            <li>
+              <a class="social-button" href="https://facebook.com/htmlacademy">
+                <span class="visually-hidden">Наша страница в Facebook</span>
+              </a>
+            </li>
+            <li>
+              <a class="social-button" href="https://www.instagram.com/htmlacademy/">
+                <span class="visually-hidden">Наша страница в Instagram</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <p class="footer-feedback">
+          <span>Обратная связь:</span><a href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </p>
+        <p class="footer-developed">
+          <span>Разработано —</span><a href="https://htmlacademy.ru/intensive/htmlcss">htmlacademy.ru</a>
+        </p>
+      </div>
     </div>
   </footer>
-
   <section class="modal modal-mail">
     <h2 class="visually-hidden">Форма обратной связи</h2>
     <form action="https://echo.htmlacademy.ru" method="post" name="mail-form">
@@ -143,7 +148,6 @@
     </form>
     <button type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно</span></button>
   </section>
-
   <section class="modal modal-maps">
     <h2 class="visually-hidden">Карта с координатами нашего офиса</h2>
     <p>
@@ -152,7 +156,6 @@
     </p>
     <button type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно с картой</span></button>
   </section>
-
 </body>
 
 </html>
