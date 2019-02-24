@@ -13,15 +13,16 @@ body {
 
 .container {
   width: 940px;
-  padding: 0 10px;
   margin: 0 auto;
+  padding: 0 10px;
 }
 
 .page-header {
-  background-color: #f4f7f9;
-  width: 100%;
   display: flex;
   flex-direction: column;
+  width: 100%;
+
+  background-color: #f4f7f9;
 }
 
 .page-header.index {
@@ -33,17 +34,16 @@ body {
 }
 
 .header-top {
-  color: #ffffff;
   margin-bottom: 49px;
 
+  color: #ffffff;
 
   background-color: #293449;
 }
 
 .header-top > .container {
   display: flex;
-  justify-content: space-between; 
-  height: 42px; /* !!! Временно !!! */
+  justify-content: space-between;
 }
 
 .page-logo img {
@@ -148,18 +148,18 @@ body {
 }
 
 .header-bottom {
-  margin-bottom: 39px;
-  height: 70px; /* !!! Временно !!! */
   display: flex;
   justify-content: space-between;
+  margin-bottom: 39px;
 }
 
 .header-bottom .shop-description {
+  width: 300px;
+
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
   color: #e9292a;
-  width: 300px;
 }
 
 .header-bottom .header-address {
@@ -241,15 +241,16 @@ body {
 }
 
 .header-main-menu {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
   font-size: 17px;
   line-height: 17px;
   color: #ffffff;
-  list-style: none;
+
   background-color: #32425c;
   box-shadow: 0 5px 0 #293449;
-  margin: 0;
-  padding: 0;
-  height: 55px; /* !!! Временно !!! */
 }
 
 .header-main-menu a {
@@ -262,16 +263,16 @@ body {
 }
 
 .header-main-menu a:active {
+  color: rgba(255, 255, 255, 0.5);
+
   background-color: #1d2739;
   box-shadow: 0 5px 0 #1d2739;
-  color: rgba(255, 255, 255, 0.5);
 }
 
 .page-part {
-  margin-bottom: 86px;
   display: flex;
   justify-content: space-between;
-  height: 370px; /* !!! Временно !!! */
+  margin-bottom: 86px;
 }
 
 
@@ -306,8 +307,8 @@ body {
 
 .page-part .contacts {
   width: 300px;
-  }
-  
+}
+
 
 .button {
   font: inherit;
@@ -335,14 +336,14 @@ body {
 }
 
 .breadcrumbs {
+  margin: 0;
+  margin-bottom: 24px;
+  padding: 0;
+
   list-style: none;
   line-height: 18px;
   font-family: "PT Sans", Arial, san-serif;
   text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-  margin-bottom: 24px;
-  height: 12px; /* !!! Временно !!! */
 }
 
 .breadcrumbs a {
@@ -351,9 +352,9 @@ body {
 }
 
 .block-title {
-  background-color: #f2f6f8;
   margin-bottom: 20px;
-  height: 90px; /* !!! Временно !!! */
+
+  background-color: #f2f6f8;
 }
 
 .title-item {
@@ -434,30 +435,29 @@ body {
 .catalog {
   width: 700px;
   margin-bottom: 32px;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: flex-start;
- }
+}
 
 
 .catalog-list {
-  list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  list-style: none;
 }
 
 .catalog-list .catalog-item {
   width: 217px;
-  height: 320px; /* !!! Временно !!! */
   margin-right: 20px;
   margin-bottom: 20px;
-
 
   border: 1px solid #e5e5e5;
 }
 
 .catalog-list .catalog-item:nth-child(3n) {
-margin-right: 0;
+  margin-right: 0;
 }
 
 .catalog-list .catalog-item:hover {
@@ -527,10 +527,10 @@ margin-right: 0;
 }
 
 .about-perforator {
-  background-color: #f2f6f8;
-  height: 221px; /* !!! Временно !!! */
   width: 100%;
- padding-top: 40px;
+  padding-top: 40px;
+
+  background-color: #f2f6f8;
 }
 
 .about-perforator h2 {
@@ -541,13 +541,14 @@ margin-right: 0;
 }
 
 .about-perforator p {
-  font-family: "PT Sans", Arial, sans-serif;
   margin: 0;
+
+  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .page-footer {
-  color: #ffffff;
   font-size: 18px;
+  color: #ffffff;
 
   background-color: #32425c;
 }
@@ -555,7 +556,6 @@ margin-right: 0;
 .page-footer > .container {
   display: flex;
   justify-content: space-between;
-  height: 193px; /* !!! Временно !!! */
 }
 
 .page-footer .footer-left {
@@ -577,8 +577,8 @@ margin-right: 0;
 
 .footer-right .footer-main-menu,
 .footer-right .footer-catalog-menu {
+
   list-style: none;
-  height: 30px; /* !!! Временно !!! */
 }
 
 .footer-main-menu a {
@@ -643,9 +643,8 @@ margin-right: 0;
 }
 
 
-!!! Временно !!!
 
-  /* Временная подсветка */
+/* Временная подсветка */
 /*  
 body > * {
   outline: 1px solid red; 
