@@ -40,13 +40,14 @@ body {
 .header-top {
   margin-bottom: 49px;
 
-  color: #ffffff;
+  color: #fff fff;
 
   background-color: #293449;
 }
 
 .header-top > .container {
   display: flex;
+  line-height: 9px;
   justify-content: space-between;
 }
 
@@ -67,6 +68,10 @@ body {
 .page-logo .header-img:active {
   background-color: #ba2732;
   box-shadow: 0 5px 0 #8e1e26;
+}
+
+.search {
+flex-grow: 1;
 }
 
 .search .search-field {
@@ -115,6 +120,15 @@ body {
 
 .header-top .make-order {
   background-color: #63a63e;
+  padding: 12px 22px 12px 20px;
+}
+
+.header-top .card {
+  padding: 12px 31px 12px 50px;
+}
+
+.header-top .bookmarks {
+  padding: 12px 27px 12px 44px;
 }
 
 .header-top .bookmarks:hover,
@@ -153,21 +167,25 @@ body {
 
 .header-bottom {
   display: flex;
-  justify-content: space-between;
   margin-bottom: 39px;
 }
 
 .header-bottom .shop-description {
-  width: 300px;
+  width: 198px;
 
   font-style: italic;
   font-size: 16px;
   line-height: 23px;
   color: #e9292a;
+  margin: 0;
+  padding: 0;
+  padding-left: 52px;
+  margin-right: 70px;
 }
 
 .header-bottom .header-address {
-  width: 300px;
+  width: 276px;
+  margin-top: -3px;
 }
 
 .header-address .number {
@@ -175,14 +193,23 @@ body {
   line-height: 21px;
   color: #e9292a;
   text-decoration: none;
+  border: 3px solid #ffffff;
+  padding: 9px 50px 9px 71px;
+  display: inline-block;
 }
+
 .header-address .address {
   font-size: 14px;
   color: #32425c;
+  margin: 0;
+  padding-left: 9px;
+  padding-top: 4px;
 }
 
 .header-bottom .personal-area {
-  width: 300px;
+  max-width: 300px;
+  margin-left: auto;
+  padding-top: 9px;
 }
 
 .personal-area .index-button {
@@ -192,6 +219,15 @@ body {
   text-decoration: none;
 
   background-color: #ffffff;
+}
+
+.index-button.enter {
+  padding: 10px 26px 11px 47px;
+  margin-right: 7px;
+}
+
+.index-button.registration {
+  padding: 10px 24px 11px 24px;
 }
 
 .personal-area .index-button:hover {
@@ -241,13 +277,15 @@ body {
 }
 
 .page-header-nav {
-  margin-bottom: 65px;
+  margin-bottom: 60px;
 }
 
 .header-main-menu {
   display: flex;
+  flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  padding-left: 29px;
 
   list-style: none;
   font-size: 17px;
@@ -255,12 +293,14 @@ body {
   color: #ffffff;
 
   background-color: #32425c;
-  box-shadow: 0 5px 0 #293449;
+  box-shadow: inset 0 -5px 0 #293449;
 }
 
 .header-main-menu a {
   color: #ffffff;
   text-decoration: none;
+  display: block;
+  padding: 19px 31px 24px 31px;
 }
 
 .header-main-menu a:hover {
@@ -271,7 +311,7 @@ body {
   color: rgba(255, 255, 255, 0.5);
 
   background-color: #1d2739;
-  box-shadow: 0 5px 0 #1d2739;
+  box-shadow: inset 0 -5px 0 #1d2739;
 }
 
 .page-part {
@@ -645,8 +685,8 @@ body {
 
 
 /* Временная подсветка */
-/*  
-body > * {
+
+/* body > * {
   outline: 1px solid red; 
 }
 
@@ -656,4 +696,4 @@ body > * > *  {
 
 body > * > * > * {
   outline: 1px solid violet;
-}  */
+}   */
