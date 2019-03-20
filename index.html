@@ -279,17 +279,23 @@
               <svg xmlns="http://www.w3.org/2000/svg" width="26" height="15">
                 <path fill="#FFF"
                   d="M16.14 11.51c.95-.3 2.18 2.04 3.48 2.94.98.68 1.73.53 1.73.53l3.47-.05s1.82-.1.96-1.55c-.07-.12-.5-1.07-2.59-3.02-2.17-2.05-1.88-1.72.74-5.25 1.6-2.15 2.24-3.47 2.04-4.03-.2-.53-1.37-.4-1.37-.4L20.7.72c-.38 0-.7.12-.85.52 0 0-.62 1.66-1.45 3.08-1.74 2.99-2.43 3.15-2.72 2.96-.66-.43-.5-1.74-.5-2.67 0-2.9.44-4.1-.84-4.41A6.6 6.6 0 0 0 12.5 0c-1.39-.03-2.57 0-3.24.32-.45.23-.79.72-.58.74.26.04.84.16 1.15.59.4.55.4 1.79.4 1.79s.22 3.41-.55 3.83c-.52.3-1.25-.3-2.8-3.01-.8-1.4-1.4-2.92-1.4-2.92s-.1-.29-.32-.45c-.25-.18-.6-.24-.6-.24L.85.68S.29.7.08.95c-.18.21-.01.66-.01.66s2.9 6.88 6.2 10.35c3.02 3.18 6.46 2.97 6.46 2.97h1.55s.47-.05.7-.31c.23-.24.22-.7.22-.7s-.03-2.1.94-2.41z" />
-                </svg>
+              </svg>
               <span class="visually-hidden">Наша страница в Вконтакте</span>
             </a>
           </li>
           <li>
-            <a class="social-button" href="https://facebook.com/htmlacademy"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="22"><path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z"/></svg>
+            <a class="social-button" href="https://facebook.com/htmlacademy"><svg xmlns="http://www.w3.org/2000/svg"
+                width="12" height="22">
+                <path fill="#FFF" d="M12 4V0H8a4 4 0 0 0-4 4v4H0v4h4v10h4V12h4V8H8V4h4z" /></svg>
               <span class="visually-hidden">Наша страница в Facebook</span>
             </a>
           </li>
           <li>
-            <a class="social-button" href="https://www.instagram.com/htmlacademy/"><svg xmlns="http://www.w3.org/2000/svg" width="21" height="21"><path fill="#FFF" d="M18 0H3a3 3 0 0 0-3 3v15a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3zm-7.5 7a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zM18 18H3V9h1.18a6.5 6.5 0 1 0 12.64 0H18v9zm0-11h-4V3h4v4z"/></svg>
+            <a class="social-button" href="https://www.instagram.com/htmlacademy/"><svg
+                xmlns="http://www.w3.org/2000/svg" width="21" height="21">
+                <path fill="#FFF"
+                  d="M18 0H3a3 3 0 0 0-3 3v15a3 3 0 0 0 3 3h15a3 3 0 0 0 3-3V3a3 3 0 0 0-3-3zm-7.5 7a3.5 3.5 0 1 1 0 7 3.5 3.5 0 0 1 0-7zM18 18H3V9h1.18a6.5 6.5 0 1 0 12.64 0H18v9zm0-11h-4V3h4v4z" />
+              </svg>
               <span class="visually-hidden">Наша страница в Instagram</span>
             </a>
           </li>
@@ -303,20 +309,39 @@
       </div>
     </div>
   </footer>
-  <section class="modal modal-mail">
+
+
+
+  <section class="modal modal-feedback">
     <h2 class="visually-hidden">Форма обратной связи</h2>
-    <form action="https://echo.htmlacademy.ru" method="post" name="mail-form">
-      <label for="mail-form-name">Ваше имя:</label>
-      <input type="text" name="name" id="mail-form-name" placeholder="Имя Фамилия">
-      <label for="mail-form-email">Ваш e-mail:</label>
-      <input type="email" name="email" id="mail-form-email" placeholder="email@example.com">
-      <label for="mail-form-message">Текст письма:</label>
-      <textarea name="message" id="mail-form-message" placeholder="В свободной форме"></textarea>
+
+    <div class="modal-container">
+      <form class="feedback" action="https://echo.htmlacademy.ru" method="post" name="mail-form">
+        <div class="feedback-item">
+          <label for="mail-form-name">Ваше имя:</label>
+          <input class="ptsans" type="text" name="name" id="mail-form-name" placeholder="Имя Фамилия">
+        </div>
+        <div class="feedback-item">
+          <label for="mail-form-email">Ваш e-mail:</label>
+          <input class="ptsans" type="email" name="email" id="mail-form-email" placeholder="email@example.com">
+        </div>
+        <div class="feedback-item textarea">
+          <label for="mail-form-message">Текст письма:</label>
+          <textarea class="ptsans" name="message" id="mail-form-message" placeholder="В свободной форме"></textarea>
+        </div>
+
+    </div>
+    <div class="modal-footer feedback-footer">
       <button class="button" type="submit">Отправить</button>
-    </form>
-    <button type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно</span></button>
+      </form>
+    </div>
+    <button class="button-close" type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно</span></button>
   </section>
-  <section class="modal modal-maps">
+
+
+
+
+  <section class="modal-maps">
     <h2 class="visually-hidden">Карта с координатами нашего офиса</h2>
     <p>
       <img src="img/modal-maps.png" width="940" height="446"
@@ -324,6 +349,9 @@
     </p>
     <button type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно с картой</span></button>
   </section>
+
+
+
 </body>
 
 </html>
