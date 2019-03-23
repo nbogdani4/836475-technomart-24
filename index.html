@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
   <header class="page-header index">
     <div class="header-top">
       <div class="container">
@@ -41,11 +42,8 @@
         <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <div class="personal-area guest-area">
-
         <a class="index-button login" href="login.html">Войти</a>
         <a class="index-button registration" href="registration.html">Регистрация</a>
-
-
       </div>
     </div>
     <nav class="page-header-nav container">
@@ -60,6 +58,7 @@
       </ul>
     </nav>
   </header>
+
   <main class="page-main">
     <div class="container">
       <div class="simple-wrap">
@@ -89,12 +88,27 @@
           </div>
         </div>
         <div class="slaider">
-          <p class="slider-title">Дрели</p>
-          <p class="slider-subtitle">Соседям на радость!</p>
-          <img src="img/slider1.jpg" alt="Строитель сверлит кирпичную стену аккумуляторной дрелью">
+          <div class="slaider-container">
+            <p class="slider-title">Перфораторы </p>
+            <p class="slider-subtitle">Настоящие мужские игрушки</p>
+            <img src="img/slider1.jpg" width="620" height="266"
+              alt="Строитель сверлит кирпичную стену аккумуляторной дрелью">
+            <a class="button slaider-btn" href="#">Открыть каталог</a>
+          </div>
+          <div class="slaider-container active">
+            <p class="slider-title">Дрели</p>
+            <p class="slider-subtitle">Соседям на радость!</p>
+            <img src="img/slider2.jpg" width="620" height="266"
+              alt="Строитель сверлит кирпичную стену аккумуляторной дрелью">
+            <a class="button slaider-btn" href="#">Открыть каталог</a>
+          </div>
           <button class="back" type="button"><span class="visually-hidden">Предыдущий слайд</span></button>
           <button class="next" type="button"><span class="visually-hidden">Следующий слайд</span></button>
-          <a class="button slaider-btn" href="#">Открыть каталог</a>
+          <ul class="indicator-list">
+            <li><button class="indicator-item" type="button"><span class="visually-hidden">Слайд 1</span></button></li>
+            <li><button class="indicator-item active" type="button"><span class="visually-hidden">Слайд
+                  2</span></button></li>
+          </ul>
         </div>
       </div>
       <section class="popular-items">
@@ -209,10 +223,6 @@
         </div>
       </div>
     </section>
-
-
-
-
     <div class="container simple-wrap">
       <section class="about-company">
         <h2 class="title-block">Компания «Техномарт»</h2>
@@ -229,7 +239,6 @@
         </ul>
         <a class="button" href="#">Подробнее о компании</a>
       </section>
-
       <section class="contacts">
         <h2 class="title-block">Контакты</h2>
         <p class="ptsans">Вы можете забрать товар сами, заехав в наш офис:</p>
@@ -238,10 +247,8 @@
         <a class="button contact-btn" href="#">Заблудились? Напишите нам!</a>
       </section>
     </div>
-
-
-
   </main>
+
   <footer class="page-footer">
     <div class="container">
       <div class="footer-left">
@@ -310,13 +317,10 @@
     </div>
   </footer>
 
-
-
   <section class="modal modal-feedback">
     <h2 class="visually-hidden">Форма обратной связи</h2>
-
-    <div class="modal-container">
-      <form class="feedback" action="https://echo.htmlacademy.ru" method="post" name="mail-form">
+    <form class="feedback" action="https://echo.htmlacademy.ru" method="post" name="mail-form">
+      <div class="modal-container">
         <div class="feedback-item">
           <label for="mail-form-name">Ваше имя:</label>
           <input class="ptsans" type="text" name="name" id="mail-form-name" placeholder="Имя Фамилия">
@@ -325,33 +329,29 @@
           <label for="mail-form-email">Ваш e-mail:</label>
           <input class="ptsans" type="email" name="email" id="mail-form-email" placeholder="email@example.com">
         </div>
-        <div class="feedback-item textarea">
+        <div class="feedback-item">
           <label for="mail-form-message">Текст письма:</label>
           <textarea class="ptsans" name="message" id="mail-form-message" placeholder="В свободной форме"></textarea>
         </div>
-
-    </div>
-    <div class="modal-footer feedback-footer">
-      <button class="button" type="submit">Отправить</button>
-      </form>
-    </div>
-    <button class="button-close" type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно</span></button>
+      </div>
+      <div class="modal-footer feedback-footer">
+        <button class="button" type="submit">Отправить</button>
+      </div>
+    </form>
+    <button class="button-close" type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть
+        окно</span></button>
   </section>
 
-
-
-
-  <section class="modal-maps">
+  <section class="modal modal-maps">
     <h2 class="visually-hidden">Карта с координатами нашего офиса</h2>
     <p>
       <img src="img/modal-maps.png" width="940" height="446"
         alt="Город Санкт-Петербург, улица Большая Конюшенная, дом 19/8">
     </p>
-    <button type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно с картой</span></button>
+    <button class="button-close" type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно с
+        картой</span></button>
   </section>
-
-
-
+  
 </body>
 
 </html>

@@ -11,6 +11,7 @@
 </head>
 
 <body>
+
   <header class="page-header inner">
     <div class="header-top">
       <div class="container">
@@ -41,7 +42,6 @@
         <p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
       </div>
       <div class="personal-area member-area">
-
         <p class="user-profile">
           <a class="profile" href="profile/id85337.html" title="Профиль пользователя Равшан Джамшутович">Равшан
             Джамшутович</a>
@@ -67,6 +67,7 @@
       </ul>
     </nav>
   </header>
+
   <main class="page-main catalog-page">
     <div class="container">
       <ul class="breadcrumbs ptsans">
@@ -89,19 +90,24 @@
               <legend>Производители:</legend>
               <ul>
                 <li>
-                  <label><input class="visually-hidden" type="checkbox" name="bosch" checked> Bosch</label>
+                  <input class="visually-hidden" id="bosch" type="checkbox" name="bosch" checked>
+                  <label for="bosch">Bosch</label>
                 </li>
                 <li>
-                  <label><input class="visually-hidden" type="checkbox" name="interskol"> Интерскол</label>
+                  <input class="visually-hidden" id="interskol" type="checkbox" name="interskol">
+                  <label for="interskol">Интерскол</label>
                 </li>
                 <li>
-                  <label><input class="visually-hidden" type="checkbox" name="makita" checked> Makita</label>
+                  <input class="visually-hidden" id="makita" type="checkbox" name="makita" checked>
+                  <label for="makita">Makita</label>
                 </li>
                 <li>
-                  <label><input class="visually-hidden" type="checkbox" name="dewalt"> DeWalt</label>
+                  <input class="visually-hidden" id="dewalt" type="checkbox" name="dewalt">
+                  <label for="dewalt">DeWalt</label>
                 </li>
                 <li>
-                  <label><input class="visually-hidden" type="checkbox" name="hitachi"> Hitachi</label>
+                  <input class="visually-hidden" id="hitachi" type="checkbox" name="hitachi">
+                  <label for="hitachi">Hitachi</label>
                 </li>
               </ul>
             </fieldset>
@@ -109,11 +115,12 @@
               <legend>Питание:</legend>
               <ul>
                 <li>
-                  <label><input class="visually-hidden" type="radio" name="power" value="battery" checked>
-                    Аккумуляторные</label>
+                  <input class="visually-hidden" id="battery" type="radio" name="power" value="battery" checked>
+                  <label for="battery">Аккумуляторные</label>
                 </li>
                 <li>
-                  <label><input class="visually-hidden" type="radio" name="power" value="wired"> Сетевые</label>
+                  <input class="visually-hidden" id="wired" type="radio" name="power" value="wired">
+                  <label for="wired">Сетевые</label>
                 </li>
               </ul>
             </fieldset>
@@ -286,6 +293,7 @@
       </div>
     </section>
   </main>
+
   <footer class="page-footer">
     <div class="container">
       <div class="footer-left">
@@ -354,10 +362,6 @@
     </div>
   </footer>
 
-
-
-
-
   <section class="modal modal-message">
     <div class="modal-container">
       <h2 class="visually-hidden">Сообщение для пользователя</h2>
@@ -367,13 +371,10 @@
       <a class="button" href="order.html">Оформить заказ</a>
       <a class="button modal-catalog" href="catalog.html">Продолжить покупку</a>
     </div>
-    <button class="button-close" type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть окно</span></button>
+    <button class="button-close" type="button" title="Закрыть окно"><span class="visually-hidden">Закрыть
+        окно</span></button>
   </section>
-
-
-
-
-
+  
 </body>
 
 </html>
