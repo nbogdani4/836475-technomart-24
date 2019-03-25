@@ -184,8 +184,6 @@ input[type="radio"].visually-hidden {
 }
 
 .search .search-field::placeholder {
-  font-size: 17px;
-  line-height: 18px;
   color: #ffffff;
 
   background-color: transparent;
@@ -1620,7 +1618,7 @@ input[type="radio"].visually-hidden {
   border-radius: 3px;
 }
 
-.price-control::before {
+.scale-max-cover::before {
   content: "";
   position: absolute;
   top: 18px;
@@ -1646,7 +1644,8 @@ input[type="radio"].visually-hidden {
   margin-bottom: 20px;
 }
 
-.filter label {
+.filter-manufacturer label,
+.filter-power label {
   position: relative;
 
   padding-left: 34px;
